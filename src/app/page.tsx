@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -11,7 +11,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Camera, Image, Package, TrendingUp, Users, Quote } from 'lucide-react';
+import { Camera, Image, Package, TrendingUp, Users, Quote, Instagram, Globe } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -191,11 +191,11 @@ export default function Home() {
               imageAlt: "Portrait of a young man holding a camera outdoors, with blurred background.",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/sarahjohnsonphoto"
                 },
                 {
-                  icon: "Globe",
+                  icon: Globe,
                   url: "https://sarahjohnsonphotography.com"
                 }
               ]
@@ -209,7 +209,7 @@ export default function Home() {
               imageAlt: "Top view of a stylish home office desk with a laptop, planner, and coffee cup, showing hands on a blueprint.",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/michaelchenphoto"
                 }
               ]
